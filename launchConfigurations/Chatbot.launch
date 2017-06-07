@@ -1,0 +1,25 @@
+{
+	"Params": {
+		"DevMode": {
+			"Instrumentation": {
+				"command": "",
+				"env": {
+					"BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+					"NODE_ENV": "development"
+				},
+				"memory": "384M"
+			},
+			"Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+		},
+		"Name": "HamdijaChatbot",
+		"Target": {
+			"Url": "https://api.eu-de.bluemix.net",
+			"Org": "031ad14c-0281-4d95-a16a-b494fd5ad524",
+			"Space": "fbe7829a-eb8e-4b5d-8629-0d6e88d03dcd"
+		},
+		"Timeout": 60
+	},
+	"Path": "",
+	"ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+	"Type": "Cloud Foundry"
+}

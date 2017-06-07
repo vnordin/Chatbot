@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: HamdijaChatbot
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
+    CONVERSATION_WORKSPACE_ID: 6426340f-cc50-4282-a1ff-e7df84b832b3
     CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
